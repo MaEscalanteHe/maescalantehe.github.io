@@ -7,12 +7,4 @@
 <br/>
 <p>But since it can be tedious, I'll leave you my social networks:</p>
 <br/>
-<p class="terminal2-prompt__links">
-<a href="https://github.com/MaEscalanteHe" target="_blank">Github</a>
-&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/maescalantehe/" target="_blank">LinkedIn</a>
-&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://twitter.com/MaEscalanteHe" target="_blank">Twitter</a>
-&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Dev.to</a>
-</p>
+<p class="terminal2-prompt__links"><a href="https://github.com/MaEscalanteHe" target="_blank">Github</a><span></span><a href="https://www.linkedin.com/in/maescalantehe/" target="_blank">LinkedIn</a><span></span><a href="https://twitter.com/MaEscalanteHe" target="_blank">Twitter</a><span></span><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Dev.to</a></p>

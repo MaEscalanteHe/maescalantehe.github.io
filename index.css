@@ -1,26 +1,27 @@
 /* Palette */
 :root {
-    --terminal-bg: rgba(4, 4, 4, 0.95);
-    --terminal-shadow: 1px 1px 9px 5px rgba(40,36,95, 0.4);
-    --terminal1-border-color: rgba(55, 186, 184, 0.9);
-    --terminal2-border-color: rgba(190, 60, 123, 0.6);
-    --terminal3-border-color: rgba(89, 56, 190, 0.6);
-    --blue: rgba(55, 186, 184, 1);
-    --pink: rgba(190, 60, 123, 1);
-    --purple: rgba(89, 56, 190, 1);
-    --violet: rgba(158, 115, 224, 1)
+  --terminal-bg: rgba(4, 4, 4, 0.95);
+  --terminal-shadow: 1px 1px 9px 5px rgba(40, 36, 95, 0.4);
+  --terminal1-border-color: rgba(55, 186, 184, 0.9);
+  --terminal2-border-color: rgba(190, 60, 123, 0.6);
+  --terminal3-border-color: rgba(89, 56, 190, 0.6);
+  --blue: rgba(55, 186, 184, 1);
+  --pink: rgba(190, 60, 123, 1);
+  --purple: rgba(89, 56, 190, 1);
+  --violet: rgba(158, 115, 224, 1);
 }
 
 * {
-    color: gainsboro;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  color: gainsboro;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    background-color: black;
+html,
+body {
+  height: 100%;
+  background-color: black;
 }
 
 /* 
@@ -30,158 +31,189 @@ Screen
 */
 
 .screen {
-    position: relative;
-    height: 100%;
-    overflow: hidden;
+  position: relative;
+  height: 100%;
+  overflow: hidden;
 }
 
+/* 
+****************************************************************************************************
+Terminal 1
+**************************************************************************************************** 
+*/
+
 .terminal1 {
-    position: absolute;
-    top: 10%;
-    bottom: 10%;
-    right: 50%;
-    left: 10%;
-    margin: auto;
-    margin-right: 1%;
-    background: var(--terminal-bg);
-    box-shadow: var(--terminal-shadow);
-    border-color: var(--terminal1-border-color);
-    border-style: solid;
-    border-radius: 3px;
-    border-width: thin;
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  right: 50%;
+  left: 10%;
+  margin: auto;
+  margin-right: 1%;
+  background: var(--terminal-bg);
+  box-shadow: var(--terminal-shadow);
+  border-color: var(--terminal1-border-color);
+  border-style: solid;
+  border-radius: 3px;
+  border-width: thin;
 }
 
 #terminal1-prompt {
-    height: 100%;
-    overflow-y: auto;
-    overflow-x: hidden;
-    padding: 18px;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 18px;
 }
 
 .terminal1-prompt__title {
-    color: var(--blue);
-    font-weight: 600;
+  color: var(--blue);
+  font-weight: 600;
 }
 
 .terminal1-prompt__portfolio {
-    color: var(--blue);
-    font-weight: 600;
+  color: var(--blue);
+  font-weight: 600;
 }
 
 .terminal1-prompt__italic {
-    font-style: italic;
-    font-size: 14px;
+  font-style: italic;
+  font-size: 14px;
 }
 
 .terminal1-prompt__bold {
-    font-weight: bolder;
-    color: var(--blue);
+  font-weight: bolder;
+  color: var(--blue);
 }
 
-.terminal1-prompt__portfolio:link, .terminal1-prompt__portfolio:visited, .terminal1-prompt__portfolio:hover, .terminal1-prompt__portfolio:active {
-    color: var(--violet);
+.terminal1-prompt__portfolio:link,
+.terminal1-prompt__portfolio:visited,
+.terminal1-prompt__portfolio:hover,
+.terminal1-prompt__portfolio:active {
+  color: var(--violet);
 }
+
+/* 
+****************************************************************************************************
+Terminal 2
+**************************************************************************************************** 
+*/
 
 .terminal2 {
-    position: absolute;
-    top: 10%;
-    bottom: 60%;
-    right: 10%;
-    left: 50%;
-    margin: auto;
-    margin-bottom: 1%;
-    margin-left: 1%;
-    background: var(--terminal-bg);
-    box-shadow: var(--terminal-shadow);
-    border-color: var(--terminal2-border-color);
-    border-style: solid;
-    border-radius: 3px;
+  position: absolute;
+  top: 10%;
+  bottom: 60%;
+  right: 10%;
+  left: 50%;
+  margin: auto;
+  margin-bottom: 1%;
+  margin-left: 1%;
+  background: var(--terminal-bg);
+  box-shadow: var(--terminal-shadow);
+  border-color: var(--terminal2-border-color);
+  border-style: solid;
+  border-radius: 3px;
 }
 
 #terminal2-prompt {
-    height: 100%;
-    overflow-y: auto;
-    overflow-x: hidden;
-    padding: 18px;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 18px;
 }
 
 .terminal2-prompt__title {
-    color: var(--pink);
-    font-weight: 600;
+  color: var(--pink);
+  font-weight: 600;
 }
 
 .terminal2-prompt__email {
-    color: var(--pink);
-    font-weight: 500;
+  color: var(--pink);
+  font-weight: 500;
 }
 
 .terminal2-prompt__italic {
-    font-style: italic;
+  font-style: italic;
 }
 
-.terminal2-prompt a:link, a:visited, a:hover, a:active {
-    color: var(--violet);
+.terminal2-prompt__links span {
+  display: inline-block;
+  margin-left: 40px;
 }
+
+.terminal2-prompt a:link,
+a:visited,
+a:hover,
+a:active {
+  color: var(--violet);
+}
+
+/* 
+****************************************************************************************************
+Terminal 3
+**************************************************************************************************** 
+*/
 
 .terminal3 {
-    position: absolute;
-    top: 40%;
-    bottom: 10%;
-    right: 10%;
-    left: 50%;
-    margin: auto;
-    margin-top: 1%;
-    margin-left: 1%;
-    background: var(--terminal-bg);
-    box-shadow: var(--terminal-shadow);
-    border-color: var(--terminal3-border-color);
-    border-style: solid;
-    border-radius: 3px;
+  position: absolute;
+  top: 40%;
+  bottom: 10%;
+  right: 10%;
+  left: 50%;
+  margin: auto;
+  margin-top: 1%;
+  margin-left: 1%;
+  background: var(--terminal-bg);
+  box-shadow: var(--terminal-shadow);
+  border-color: var(--terminal3-border-color);
+  border-style: solid;
+  border-radius: 3px;
 }
 
 #terminal3-prompt {
-    height: 100%;
-    overflow-y: auto;
-    overflow-x: hidden;
-    padding: 18px;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 18px;
 }
 
 .terminal3-prompt__title {
-    color: var(--purple);
-    font-weight: 600;
+  color: var(--purple);
+  font-weight: 600;
 }
 
 .terminal3-prompt__italic {
-    font-style: italic;
-    font-size: 14px;
+  font-style: italic;
+  font-size: 14px;
 }
 
 .terminal3-prompt__bold {
-    font-weight: bolder;
-    color: var(--purple);
+  font-weight: bolder;
+  color: var(--purple);
 }
 
 .terminal__prompt {
-    color: white;
-    text-align: justify;
-    padding: 10px;
-    padding-right: 30px;
+  color: white;
+  text-align: justify;
+  padding: 10px;
+  padding-right: 30px;
 }
 
 .terminal__animated::after {
-    content: "_";
-    margin-left: 0.2em;
-    animation: blinkCursor 1.5s linear infinite;
+  content: "_";
+  margin-left: 0.2em;
+  animation: blinkCursor 1.5s linear infinite;
 }
 
 .terminal__hostname {
-    color: var(--violet);
-    font-weight: bold;
+  color: var(--violet);
+  font-weight: bold;
 }
 
-.prompt, pre, p {
-    font-family: monospace;
-    font-size: 16px;
+.prompt,
+pre,
+p {
+  font-family: monospace;
+  font-size: 16px;
 }
 
 /* 
@@ -191,42 +223,114 @@ TTY
 */
 
 .tty {
-    padding-top: 10px;
-    padding-left: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
 }
 
 .tty-systemd__osname {
-    color: turquoise;
-    font-weight: bold;
+  color: turquoise;
+  font-weight: bold;
 }
 
 .tty-systemd__ok {
-    color: green;
-    font-weight: bold;
+  color: green;
+  font-weight: bold;
 }
 
 .tty-login__username {
-    color: red; 
-    font-weight: bold;
+  color: red;
+  font-weight: bold;
 }
 
 .tty-login__animated::after {
-    content: "_";
-    margin-left: 0.2em;
-    animation: blinkCursor 1.2s linear infinite;
+  content: "_";
+  margin-left: 0.2em;
+  animation: blinkCursor 1.2s linear infinite;
 }
 
 @keyframes blinkCursor {
-    0% {
-        opacity: 1;
-    }
-    49% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 0;
-    }
+  0% {
+    opacity: 1;
+  }
+  49% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* 
+****************************************************************************************************
+Media query
+**************************************************************************************************** 
+*/
+
+@media (max-width: 1100px) {
+  .terminal2-prompt__links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .terminal2-prompt__links > a {
+    display: flex;
+    flex-basis: calc(50%);
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .terminal2-prompt__links > span {
+    display: none;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .screen {
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    padding: 5px;
+  }
+
+  .terminal1,
+  .terminal2,
+  .terminal3 {
+    position: relative;
+    top: auto;
+    bottom: auto;
+    right: auto;
+    left: auto;
+    margin: 5px 10px 5px 10px;
+  }
+
+  .terminal1 {
+    background: var(--terminal-bg);
+    box-shadow: var(--terminal-shadow);
+    border-color: var(--terminal1-border-color);
+    border-style: solid;
+    border-radius: 3px;
+    border-width: thin;
+  }
+
+  .terminal2 {
+    background: var(--terminal-bg);
+    box-shadow: var(--terminal-shadow);
+    border-color: var(--terminal2-border-color);
+    border-style: solid;
+    border-radius: 3px;
+  }
+
+  .terminal3 {
+    background: var(--terminal-bg);
+    box-shadow: var(--terminal-shadow);
+    border-color: var(--terminal3-border-color);
+    border-style: solid;
+    border-radius: 3px;
+  }
 }
