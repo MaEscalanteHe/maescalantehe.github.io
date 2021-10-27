@@ -59,7 +59,7 @@ const disableTerminal3 = () => (terminalDOM3.hidden = true);
 const enableTerminal1 = () => (terminalDOM1.hidden = false);
 const enableTerminal2 = () => (terminalDOM2.hidden = false);
 const enableTerminal3 = () => (terminalDOM3.hidden = false);
-const isDesktop = () => window.matchMedia("(min-width: 1300px)").matches;
+const isDesktop = () => window.matchMedia("(min-width: 500px)").matches;
 const changeBodyBackground = (backgroundFile) => (document.body.style.background = `url(${backgroundFile}) repeat center`);
 const changeScreenBackground = (backgroundFile) => (document.getElementById("screen").style.background = `url(${backgroundFile}) center`);
 const backgroundHandler = (event, bgCallback) => event?.matches ? bgCallback(bgKira) : bgCallback(bgMoon);
