@@ -118,9 +118,11 @@ const readAboutData = async () => {
   await sleep(1500);
   clearTerminal1();
   for (let i = 0; i < lines.length; i++) {
+    if (i === parseInt(lines.length / 1.5) && !isDesktop()) resetBackground();
     terminalPrompt1.innerHTML += lines[i];
     await sleep(500);
     scrollDown(terminalDOM1);
+    scrollDown(screenDOM);
   }
 };
 
@@ -135,6 +137,7 @@ const readContactData = async () => {
     terminalPrompt2.innerHTML += lines[i];
     await sleep(500);
     scrollDown(terminalDOM2);
+    scrollDown(screenDOM);
   }
 };
 
@@ -149,10 +152,12 @@ const readSkillsData = async () => {
     terminalPrompt3.innerHTML += lines[i];
     await sleep(500);
     scrollDown(terminalDOM3);
+    scrollDown(screenDOM);
   }
 };
 
 const executeCommandAnimation = async (text, speed = 100) => {
+  if (!isDesktop()) scrollDown(screenDOM);
   const commandDOM = document.getElementsByClassName("prompt-animated");
   for (let i = 0; i < text.length; i++) {
     commandDOM[0].textContent += text[i];
@@ -160,7 +165,7 @@ const executeCommandAnimation = async (text, speed = 100) => {
   }
 };
 
-const openTerminals = async () => {
+const openTerminalsDesktop = async () => {
   await sleep(200);
   enableTerminal1();
   await sleep(200);
@@ -174,6 +179,21 @@ const openTerminals = async () => {
   await sleep(5000);
   readSkillsData();
   resetBackground();
+};
+
+const openTerminalsMobile = async () => {
+  await sleep(500);
+  enableTerminal1();
+  await sleep(200);
+  enableTerminal2();
+  await sleep(200);
+  enableTerminal3();
+  await sleep(200);
+  await readAboutData();
+  await sleep(200);
+  await readContactData();
+  await sleep(200);
+  await readSkillsData();
 };
 
 const transitionTtyToScreen = () => {
@@ -210,7 +230,7 @@ const main = async () => {
   await sleep(500);
   transitionTtyToScreen();
   await sleep(250);
-  await openTerminals();
+  isDesktop() ? await openTerminalsDesktop() : await openTerminalsMobile();
 };
 
 main();
