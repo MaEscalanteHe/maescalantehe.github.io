@@ -1,0 +1,21 @@
+<pre>Probind EDD (edd=off to disable)... ok</pre>
+<pre>:: running early hook [udev]</pre>
+<pre>starting version 666</pre>
+<pre>:: running early hook [skalaiso_pxe_nbd]</pre>
+<pre>:: running hook [udev]</pre>
+<pre>:: Triggerig uevents...</pre>
+<pre>:: running hook [memdisk]</pre>
+<pre>:: running hook [skalaiso]</pre>
+<pre>:: running hook [skalaiso_loop_mnt]</pre>
+<pre>:: running hook [skalaiso_pxe_common]</pre>
+<pre>:: running hook [skalaiso_pxe_nbd]</pre>
+<pre>:: running hook [skalaiso_pxe_http]</pre>
+<pre>:: running hook [skalaiso_pxe_nfs]</pre>
+<pre>:: Mounting '/dev/disk/by-label/SKALA_202101' to '/run/skalaiso/bootmnt'</pre>
+<pre>:: Device '/dev/disk/by-label/SKALA_202101' mounted succesfully.</pre>
+<pre>:: Mounting /run/skalaiso/cowspace (tmpfs) filesystem, size=256M...</pre>
+<pre>:: Mounting '/dev/loop0' to '/run/skalaiso/sfs/airootfs'</pre>
+<pre>:: Device '/dev/loop0' mounted succesfully.</pre>
+<pre>:: running late hook [skalaiso_pxe_common]</pre>
+<pre>:: running cleanup hook [skalaiso_shutdown]</pre>
+<pre>:: running cleanup hook [udev]</pre>

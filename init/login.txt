@@ -1,0 +1,4 @@
+<pre>Skala Linux 5.10.6-skala1-1 (tty1)</pre>
+<br/>
+<pre>Skala login: guest (automatic login)</pre>
+<pre><span class="tty-login__username">guest</span>@Skala ~ # <span class="tty-login__animated prompt-animated"></span></pre>

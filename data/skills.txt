@@ -1,0 +1,9 @@
+<p class="terminal3-prompt__title">[ SKILLS ]</p>
+<br/>
+<p><span class="terminal3-prompt__bold">BACKEND:</span> Javascript, Typescript, Python, Nodejs, Firebase/Firestore, PostgreSQL, MySQK, MongoDB, Django, Flask, Websockets, Express.js, Firebase Auth, JWT, OAuth, Nginx.</p>
+<br/>
+<p><span class="terminal3-prompt__bold">DEVOPS:</span> Docker, Jenkins, DigitalOcean, Google Cloud Platform, AWS, Bash Scripting, Heroku, Networking.</p>
+<br/>
+<p><span class="terminal3-prompt__bold">Frontend:</span> HTML, CSS, Javascript Vanilla, Webpack, Sass, Bootstrap, Bulma.</p>
+<br/>
+<p class="terminal3-prompt__italic">Constantly learning and improving...</p>

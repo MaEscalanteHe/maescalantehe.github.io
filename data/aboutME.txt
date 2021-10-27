@@ -1,0 +1,19 @@
+<p class="terminal1-prompt__italic">Bonsoir, Elliot.</p>
+<br/>
+<p>I introduce myself, I am Manuel Escalante, but you can call me <span class="terminal1-prompt__bold">ME</span> or <span class="terminal1-prompt__bold">Skala</span>. <span class="terminal1-prompt__italic">(Yes, like the language, but with K)</span></p>
+<br/>
+<p class="terminal1-prompt__title">[ ABOUT ME ]</p>
+<p class="terminal1-prompt__italic">( About <span class="terminal1-prompt__bold">M</span>anuel <span class="terminal1-prompt__bold">E</span>scalante ?) )</p>
+<br/>
+<p>I'm Mathematics student, enthusiastic Developer and sometimes DevOps.</p>
+<p>Living in Caracas, Venezuela.</p>
+<br/>
+<p>I have experience in fields like Backend / Frontend Developer, Mobile Development, Linux Administratror, ​​Devops; but I consider myself a backend developer. <span class="terminal1-prompt__italic">(I really dislike frontend)</span></p>
+<br/>
+</p>Currently I'm still learning different technologies and languages ​​that catch my attention <span class="terminal1-prompt__italic">(especially in the backend area)</span>. If you want to see some of the things I have done.</p>
+<br/>
+<p>I invite you to visit <a href="https://github.com/MaEscalanteHe" target="_blank" class="terminal1-prompt__portfolio">my portfolio.</p>
+<br/>
+<p>I'm a member of the best group at my university: <a href="https://twitter.com/MAC_USBve" target="_blank" class="terminal1-prompt__portfolio">M.A.C / L.D.A.C.</a> since 2018. We're a team <span class="terminal1-prompt__italic">(and a family)</span> of systems administrators preparers, keep updated and available laboratories on the ground floor in MYS <span class="terminal1-prompt__italic">(Matemáticas y Sistemas building)</span>. I love practice, testing, optimize software and teach about Linux.</p>
+<br/>
+<p class="terminal1-prompt__italic">I use Arch btw...</p>

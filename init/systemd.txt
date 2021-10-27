@@ -1,0 +1,100 @@
+<pre>Welcome to <span class="tty-systemd__osname osname">Skala Linux!</span></pre>
+<br/>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Listening on Process Core Dymp Socket.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Listening on Device-mapper event daemon FIFOs.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Listening on /dev/initctl Compatibility Named Pipe.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Listening On Journal Socket (/dev/log).</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Reached target Encrypted Volumes.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Listening on udev Kernel Socket.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Started Dispatch Password Request to Console Directory Watch.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Reached target Swap.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Set up automount Arbitrary Exectab...ats File System Automount Point.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Listening on Journal Socket.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Listening on LVM2 metadata daemon socket.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Started Forward Password Request to Wall Directory Watch.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Reached target Paths.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Reached target Remote File Systems.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Listening on udev Control Socket.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Created slice User and Session Slice.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Created slice System Slice.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Reached target Slices.</pre>
+<pre>          Starting Create list of required st... nodes for the current kernel...</pre>
+<pre>          MountingTemporary Directory...</pre>
+<pre>          Starting Remount Root and Kernel File Systems...</pre>
+<pre>          Mounting Huge Pages File System...</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Created slice system-getty.slice.</pre>
+<pre>          Starting Setup Virtual Console...</pre>
+<pre>          Mounting Debug File System...</pre>
+<pre>          Starting Apply Kernel Variables...</pre>
+<pre>          Mounting POSIX Message Queue File System...</pre>
+<pre>          Starting Journal Service...</pre>
+<pre>          Mounting Configuration File System...</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Mounted Debug File System.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Mouted POSIX Message Queue File System.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Mounted Huge Pages File System.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Mouted Temporary Directory.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Mouted Configuration File System.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Started Journal Service.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Started Create list of required sta...ce nodes for the current kernel.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Started Remount Root and Kernel File Systems.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Started Setup Virtual Console.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Started Apply Kernel Variables.</pre>
+<pre>          Starting Rebuild Hardware Database...</pre>
+<pre>          Starting Create System Users...</pre>
+<pre>          Starting Load/Save Random Seed...</pre>
+<pre>          Starting FLush Journal to Persistent Storage...</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Started Load/Save Random Seed.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Started Flush Journal to Persistent Storage.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Started Create System Users.</pre>
+<pre>          Starting Create Static Device Nodes in /dev...</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Started Create Static Device Nodes in /dev...</pre>
+<pre>          Starting udev Kernel Device Manager...</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Reached target Local File Systems (Pre).</pre>
+<pre>          Mounting Temporary /etc/pacman.d/gnupg directory...</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Reached target Local File Systems.</pre>
+<pre>          Starting Create Volatile Files and Directories...</pre>
+<pre>          Starting Rebuild Journal Catalog...</pre>
+<pre>          Starting Rebuild Dynamic Linker Cache...</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Mouted Temporary /etc/pacman.d/gnupg directory.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Started Create Volatile Files and Directories.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Started Rebuild Journal Catalog.</pre>
+<pre>          Starting Update UTMP about System Boot/Shutdown...</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Started Update UTMP about System Boot/Shutdown.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Started udev Kernel Device Manager.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Started Rebuild Hardware Database.</pre>
+<pre>          Starting udev Coldplug all Devices...</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Started udev Coldplug all Devices.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Created slice system-dhcpcd.slice.</pre>
+<pre>[     3.141592] intel_rapl: no valid rapl domains found in package 0</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Reached target Sound Card.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Started Rebuild Dynamic Linker Cache.</pre>
+<pre>          Starting Update is Completed...</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Started Update is Completed.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Reached target System Initialization.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Started Daily Cleanup of Temporary Directories.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Started Daily man-db cache update.</pre>
+<pre id="elpepe">[   <span class="tty-systemd__ok">OK</span>  ] Listening on D-Bus System Message Bus Socket.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Reached target Sockets.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Started Daily verification of password and group files.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Reached target Basic System.</pre>
+<pre>          Starting Login Service...</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Started Entropy Harvesting Daemon.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Started D-Bus System Message Bus.</pre>
+<pre>          Starting Initializes Pacman keyring.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Started Daily rotation of log files.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Reached target Timers.</pre>
+<pre>          Starting dhcpcd on enp0s3...</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Started Login Service.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.</pre>
+<pre>[   <span class="tty-systemd__ok">OK</span>  ] Started Initializes Pacman keyring.</pre>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
