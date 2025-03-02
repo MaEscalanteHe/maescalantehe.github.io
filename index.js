@@ -93,9 +93,6 @@ const loadImages = () => {
   fetch(bgMobile);
 };
 
-const getFileData = async (fileName) =>
-  fetch(fileName).then((res) => res.text());
-
 const matchWithTitleTty = async (text) =>
   text.match(/osname/i) ? await sleep(1500) : null;
 
@@ -115,7 +112,7 @@ const readFileLineByLine = async (
   { activated = false, sleepEveryLines = 20, timeToSleep = 2000 } = {}
 ) => {
   const auxSleep = sleepEveryLines;
-  const text = await getFileData(fileName);
+  const text = await readFile(fileName);
   const lines = text.split("\n");
   for (let i = 0; i < lines.length; i++) {
     ttyPrompt.innerHTML += lines[i];
@@ -134,7 +131,7 @@ const readFileLineByLine = async (
 const readAboutData = async () => {
   terminalPrompt1.innerHTML = PS1;
   await executeCommandAnimation(commandTerminal1, 100);
-  const text = await getFileData(P_ABOUT_ME);
+  const text = await readFile(P_ABOUT_ME);
   const lines = text.split("\n");
   await sleep(1500);
   clearTerminal1();
@@ -150,7 +147,7 @@ const readAboutData = async () => {
 const readContactData = async () => {
   terminalPrompt2.innerHTML = PS1;
   await executeCommandAnimation(commandTerminal2, 100);
-  const text = await getFileData(P_CONTACT);
+  const text = await readFile(P_CONTACT);
   const lines = text.split("\n");
   await sleep(1500);
   clearTerminal2();
@@ -165,7 +162,7 @@ const readContactData = async () => {
 const readSkillsData = async () => {
   terminalPrompt3.innerHTML = PS1;
   await executeCommandAnimation(commandTerminal3, 100);
-  const text = await getFileData(P_SKILLS);
+  const text = await readFile(P_SKILLS);
   const lines = text.split("\n");
   await sleep(1500);
   clearTerminal3();
