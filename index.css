@@ -44,10 +44,10 @@ Terminal 1
 
 .terminal1 {
   position: absolute;
-  top: 10%;
-  bottom: 10%;
+  top: 5%;
+  bottom: 5%;
   right: 50%;
-  left: 10%;
+  left: 5%;
   margin: auto;
   margin-right: 1%;
   background: var(--terminal-bg);
@@ -100,9 +100,9 @@ Terminal 2
 
 .terminal2 {
   position: absolute;
-  top: 10%;
+  top: 5%;
   bottom: 60%;
-  right: 10%;
+  right: 5%;
   left: 50%;
   margin: auto;
   margin-bottom: 1%;
@@ -112,6 +112,7 @@ Terminal 2
   border-color: var(--terminal2-border-color);
   border-style: solid;
   border-radius: 3px;
+  border-width: thin;
 }
 
 #terminal2-prompt {
@@ -156,8 +157,8 @@ Terminal 3
 .terminal3 {
   position: absolute;
   top: 40%;
-  bottom: 10%;
-  right: 10%;
+  bottom: 5%;
+  right: 5%;
   left: 50%;
   margin: auto;
   margin-top: 1%;
@@ -167,6 +168,7 @@ Terminal 3
   border-color: var(--terminal3-border-color);
   border-style: solid;
   border-radius: 3px;
+  border-width: thin;
 }
 
 #terminal3-prompt {
