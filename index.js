@@ -34,9 +34,10 @@ const commandText = "startx /usr/bin/bspwm";
 const commandTerminal1 = "man 9 ManuelEscalante";
 const commandTerminal2 = "cat /var/mail/contact.dat";
 const commandTerminal3 = "ls -1 /dev/skills/ | xargs cat";
-const PS1 = 'guest@<span class="terminal__hostname">Skala</span> ~ # <span class="terminal__animated prompt-animated"></span>';
-const bgMoon = "img/moon.jpg";
-const bgKira = "img/kira.png";
+const PS1 =
+  'guest@<span class="terminal__hostname">Skala</span> ~ # <span class="terminal__animated prompt-animated"></span>';
+const bgDesktop = "img/background.webp";
+const bgMobile = "img/background.webp";
 const mediaMaxWidth = "1000px";
 
 // AUX.
@@ -60,10 +61,18 @@ const enableTerminal1 = () => (terminalDOM1.hidden = false);
 const enableTerminal2 = () => (terminalDOM2.hidden = false);
 const enableTerminal3 = () => (terminalDOM3.hidden = false);
 const isDesktop = () => window.matchMedia("(min-width: 500px)").matches;
-const changeBodyBackground = (backgroundFile) => (document.body.style.background = `url(${backgroundFile}) repeat center`);
-const changeScreenBackground = (backgroundFile) => (document.getElementById("screen").style.background = `url(${backgroundFile}) center`);
-const backgroundHandler = (event, bgCallback) => event?.matches ? bgCallback(bgKira) : bgCallback(bgMoon);
-const backgroundAddEventListener = (media) => media?.addEventListener("change", (event) => backgroundHandler(event, changeScreenBackground));
+const changeBodyBackground = (backgroundFile) =>
+  (document.body.style.background = `url(${backgroundFile}) repeat center`);
+const changeScreenBackground = (backgroundFile) =>
+  (document.getElementById(
+    "screen"
+  ).style.background = `url(${backgroundFile}) center`);
+const backgroundHandler = (event, bgCallback) =>
+  event?.matches ? bgCallback(bgMobile) : bgCallback(bgDesktop);
+const backgroundAddEventListener = (media) =>
+  media?.addEventListener("change", (event) =>
+    backgroundHandler(event, changeScreenBackground)
+  );
 
 // FUN.
 
@@ -71,6 +80,7 @@ const setBackground = () => {
   const maxWidth = window.matchMedia(`(max-width: ${mediaMaxWidth})`);
   backgroundHandler(maxWidth, changeBodyBackground);
   backgroundAddEventListener(maxWidth);
+  document.body.style.backgroundSize = "cover";
 };
 
 const resetBackground = () => {
@@ -79,24 +89,31 @@ const resetBackground = () => {
 };
 
 const loadImages = () => {
-  fetch(bgMoon);
-  fetch(bgKira);
+  fetch(bgDesktop);
+  fetch(bgMobile);
 };
 
-const getFileData = async (fileName) => fetch(fileName).then((res) => res.text());
+const getFileData = async (fileName) =>
+  fetch(fileName).then((res) => res.text());
 
-const matchWithTitleTty = async (text) => text.match(/osname/i) ? await sleep(2000) : null;
+const matchWithTitleTty = async (text) =>
+  text.match(/osname/i) ? await sleep(2000) : null;
 
 const matchTheLineNumber = (iterator, line) => iterator === line;
 
-const optionsIsActivated = (activated, iterator, line) => activated && matchTheLineNumber(iterator, line);
+const optionsIsActivated = (activated, iterator, line) =>
+  activated && matchTheLineNumber(iterator, line);
 
 const sleepWithOption = async (timeToSleep, sleepEveryLines, auxSleep) => {
   await sleep(timeToSleep);
   return sleepEveryLines + auxSleep;
 };
 
-const readFileLineByLine = async (fileName, speed = 100, { activated = false, sleepEveryLines = 20, timeToSleep = 2000 } = {}) => {
+const readFileLineByLine = async (
+  fileName,
+  speed = 100,
+  { activated = false, sleepEveryLines = 20, timeToSleep = 2000 } = {}
+) => {
   const auxSleep = sleepEveryLines;
   const text = await getFileData(fileName);
   const lines = text.split("\n");
@@ -104,7 +121,11 @@ const readFileLineByLine = async (fileName, speed = 100, { activated = false, sl
     ttyPrompt.innerHTML += lines[i];
     await matchWithTitleTty(lines[i]);
     optionsIsActivated(activated, i, sleepEveryLines)
-      ? ( sleepEveryLines = await sleepWithOption(timeToSleep, sleepEveryLines, auxSleep) )
+      ? (sleepEveryLines = await sleepWithOption(
+          timeToSleep,
+          sleepEveryLines,
+          auxSleep
+        ))
       : await sleep(speed);
     scrollDown(tty);
   }
