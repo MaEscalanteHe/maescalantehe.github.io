@@ -1,10 +1,9 @@
 <p class="terminal2-prompt__title">[ CONTACT ]</p>
 <br/>
-<p>Do you want to contact me?</p>
+<p>Want to get in touch?</p>
 <br/>
-<p>You have different ways to contact me, one is by sending me an email to:</p>
-<p><span class="terminal2-prompt__italic">maescalantehe</span> <span class="terminal2-prompt__email">at</span> <span class="terminal2-prompt__italic">gmail</span> <span class="terminal2-prompt__email">dot</span> <span class="terminal2-prompt__italic">com</span>.</p>
+<p>You can reach me via email at: <span class="terminal2-prompt__italic">maescalantehe</span> <span class="terminal2-prompt__email">at</span> <span class="terminal2-prompt__italic">gmail</span> <span class="terminal2-prompt__email">dot</span> <span class="terminal2-prompt__italic">com</span>.</p>
 <br/>
-<p>But since it can be tedious, I'll leave you my social networks:</p>
+<p>If email feels too formal, you can also connect with me on my social platforms:</p>
 <br/>
-<p class="terminal2-prompt__links"><a href="https://github.com/MaEscalanteHe" target="_blank">Github</a><span></span><a href="https://www.linkedin.com/in/maescalantehe/" target="_blank">LinkedIn</a><span></span><a href="https://twitter.com/MaEscalanteHe" target="_blank">Twitter</a><span></span><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Dev.to</a></p>
+<p class="terminal2-prompt__links"><a href="https://www.linkedin.com/in/maescalantehe/" target="_blank">LinkedIn</a><span></span><a href="https://github.com/MaEscalanteHe" target="_blank">Github</a><span></span><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Dev.to</a></p>
