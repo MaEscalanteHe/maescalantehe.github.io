@@ -1,9 +1,9 @@
 <p class="terminal3-prompt__title">[ SKILLS ]</p>
 <br/>
-<p><span class="terminal3-prompt__bold">BACKEND:</span> Javascript, Typescript, Python, Nodejs, Firebase/Firestore, PostgreSQL, MySQL, MongoDB, Django, Flask, Websockets, Express.js, Firebase Auth, JWT, OAuth, Nginx.</p>
+<p><span class="terminal3-prompt__bold">BACKEND:</span> JavaScript/TypeScript (Node.js, Express, NestJS), Python (Django, Flask, FastAPI), PostgreSQL, MySQL, MariaDB, MongoDB, Redis, DynamoDB, Firestore, REST, Websockets, gRPC,  JWT, OAuth.</p>
 <br/>
-<p><span class="terminal3-prompt__bold">DEVOPS:</span> Docker, Jenkins, DigitalOcean, Google Cloud Platform, AWS, Bash Scripting, Heroku, Networking.</p>
+<p><span class="terminal3-prompt__bold">DEVOPS:</span> Docker, Kubernetes, Terraform, Ansible, Amazon Web Services (AWS), Google Cloud Platform (GCP), GitHub Actions, GitLab CI/CD, Nginx DigitalOcean, Bash Scripting, Networking.</p>
 <br/>
-<p><span class="terminal3-prompt__bold">Frontend:</span> HTML, CSS, Javascript Vanilla, Webpack, Sass, Bootstrap, Bulma.</p>
+<p><span class="terminal3-prompt__bold">Frontend:</span> HTML, CSS, Javascript Vanilla, React</p>
 <br/>
 <p class="terminal3-prompt__italic">Constantly learning and improving...</p>
