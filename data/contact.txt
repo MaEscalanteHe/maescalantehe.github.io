@@ -1,8 +1,6 @@
 <p class="terminal2-prompt__title">[ CONTACT ]</p>
 <br/>
-<p>Want to get in touch?</p>
-<br/>
-<p>You can reach me via email at: <span class="terminal2-prompt__italic">maescalantehe</span> <span class="terminal2-prompt__email">at</span> <span class="terminal2-prompt__italic">gmail</span> <span class="terminal2-prompt__email">dot</span> <span class="terminal2-prompt__italic">com</span>.</p>
+<p>Want to get in touch? You can reach me via email at: <span class="terminal2-prompt__italic">maescalantehe</span> <span class="terminal2-prompt__email">at</span> <span class="terminal2-prompt__italic">gmail</span> <span class="terminal2-prompt__email">dot</span> <span class="terminal2-prompt__italic">com</span>.</p>
 <br/>
 <p>If email feels too formal, you can also connect with me on my social platforms:</p>
 <br/>

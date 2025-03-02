@@ -1,9 +1,28 @@
 <p class="terminal3-prompt__title">[ SKILLS ]</p>
 <br/>
-<p><span class="terminal3-prompt__bold">BACKEND:</span> JavaScript/TypeScript (Node.js, Express, NestJS), Python (Django, Flask, FastAPI), PostgreSQL, MySQL, MariaDB, MongoDB, Redis, DynamoDB, Firestore, REST, Websockets, gRPC,  JWT, OAuth.</p>
+<p><span class="terminal3-prompt__bold">BACKEND:</span></p>
+<p>
+  &nbsp;&nbsp;<strong>Programming Languages:</strong> JavaScript, TypeScript, Python, Java, Kotlin.<br/>
+  &nbsp;&nbsp;<strong>Frameworks & Libraries:</strong> Express.js, NestJS, Django, Flask, FastAPI.<br/>
+  &nbsp;&nbsp;<strong>Relational Databases:</strong> PostgreSQL, MySQL, MariaDB, SQLite.<br/>
+  &nbsp;&nbsp;<strong>NoSQL Databases:</strong> MongoDB, Firestore, DynamoDB, Redis.<br/>
+  &nbsp;&nbsp;<strong>Architecture & Design Patterns:</strong> Microservices, DDD (Domain-Driven Design), CQRS, Event-Driven Architecture, Hexagonal Architecture.<br/>
+</p>
 <br/>
-<p><span class="terminal3-prompt__bold">DEVOPS:</span> Docker, Kubernetes, Terraform, Ansible, Amazon Web Services (AWS), Google Cloud Platform (GCP), GitHub Actions, GitLab CI/CD, Nginx DigitalOcean, Bash Scripting, Networking.</p>
+<p><span class="terminal3-prompt__bold">DEVOPS:</span></p>
+<p>
+  &nbsp;&nbsp;<strong>Containers & Orchestration:</strong> Docker, Kubernetes.<br/>
+  &nbsp;&nbsp;<strong>Infrastructure as Code (IaC):</strong> Terraform, Ansible, CloudFormation, AWS SAM.<br/>
+  &nbsp;&nbsp;<strong>Cloud Computing:</strong> Amazon Web Services (AWS), Google Cloud Platform (GCP), DigitalOcean.<br/>
+  &nbsp;&nbsp;<strong>CI/CD (Continuous Integration & Deployment):</strong> GitHub Actions, GitLab CI/CD, Jenkins.<br/>
+  &nbsp;&nbsp;<strong>Automation & Scripting:</strong> Bash Scripting, Python.<br/>
+  &nbsp;&nbsp;<strong>Networking & Servers:</strong> Nginx, Traefik, iptables, VPNs, Firewalls.
+</p>
 <br/>
-<p><span class="terminal3-prompt__bold">Frontend:</span> HTML, CSS, Javascript Vanilla, React</p>
+<p><span class="terminal3-prompt__bold">FRONTEND:</span></p>
+<p>
+  &nbsp;&nbsp;<strong>Languages & Technologies:</strong> HTML, CSS, JavaScript Vanilla.<br/>
+  &nbsp;&nbsp;<strong>Frameworks & Libraries:</strong> React.<br/>
+</p>
 <br/>
 <p class="terminal3-prompt__italic">Constantly learning and improving...</p>
