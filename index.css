@@ -1,14 +1,14 @@
 /* Palette */
 :root {
-  --terminal-bg: rgba(4, 4, 4, 0.95);
-  --terminal-shadow: 1px 1px 9px 5px rgba(40, 36, 95, 0.4);
-  --terminal1-border-color: rgba(55, 186, 184, 0.9);
-  --terminal2-border-color: rgba(190, 60, 123, 0.6);
-  --terminal3-border-color: rgba(89, 56, 190, 0.6);
-  --blue: rgba(55, 186, 184, 1);
-  --pink: rgba(190, 60, 123, 1);
-  --purple: rgba(89, 56, 190, 1);
-  --violet: rgba(158, 115, 224, 1);
+  --terminal-bg: rgba(13, 17, 20, 0.9);
+  --terminal-shadow: 1px 1px 9px 5px rgba(27, 35, 40, 0.4);
+  --terminal1-border-color: rgba(146, 191, 222, 0.8);
+  --terminal2-border-color: rgba(216, 169, 183, 0.8);
+  --terminal3-border-color: rgba(85, 95, 146, 0.8);
+  --color-1: rgba(146, 191, 222, 1);
+  --color-2: rgba(216, 169, 183, 1);
+  --color-3: rgba(85, 95, 146, 1);
+  --color-4: rgba(177, 215, 227, 1);
 }
 
 * {
@@ -66,12 +66,12 @@ Terminal 1
 }
 
 .terminal1-prompt__title {
-  color: var(--blue);
+  color: var(--color-1);
   font-weight: 600;
 }
 
 .terminal1-prompt__portfolio {
-  color: var(--blue);
+  color: var(--color-1);
   font-weight: 600;
 }
 
@@ -82,14 +82,14 @@ Terminal 1
 
 .terminal1-prompt__bold {
   font-weight: bolder;
-  color: var(--blue);
+  color: var(--color-1);
 }
 
 .terminal1-prompt__portfolio:link,
 .terminal1-prompt__portfolio:visited,
 .terminal1-prompt__portfolio:hover,
 .terminal1-prompt__portfolio:active {
-  color: var(--violet);
+  color: var(--color-4);
 }
 
 /* 
@@ -122,12 +122,12 @@ Terminal 2
 }
 
 .terminal2-prompt__title {
-  color: var(--pink);
+  color: var(--color-2);
   font-weight: 600;
 }
 
 .terminal2-prompt__email {
-  color: var(--pink);
+  color: var(--color-2);
   font-weight: 500;
 }
 
@@ -144,7 +144,7 @@ Terminal 2
 a:visited,
 a:hover,
 a:active {
-  color: var(--violet);
+  color: var(--color-4);
 }
 
 /* 
@@ -177,7 +177,7 @@ Terminal 3
 }
 
 .terminal3-prompt__title {
-  color: var(--purple);
+  color: var(--color-3);
   font-weight: 600;
 }
 
@@ -188,7 +188,7 @@ Terminal 3
 
 .terminal3-prompt__bold {
   font-weight: bolder;
-  color: var(--purple);
+  color: var(--color-3);
 }
 
 .terminal__prompt {
@@ -205,7 +205,7 @@ Terminal 3
 }
 
 .terminal__hostname {
-  color: var(--violet);
+  color: var(--color-4);
   font-weight: bold;
 }
 
