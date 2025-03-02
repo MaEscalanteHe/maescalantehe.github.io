@@ -40,6 +40,9 @@ const bgDesktop = "img/background.webp";
 const bgMobile = "img/background.webp";
 const mediaMaxWidth = "1000px";
 
+const backgroundSizeDesktop = "cover";
+const backgroundSizeMobile = "";
+
 // AUX.
 
 const readFile = async (fileName) => fetch(fileName).then((res) => res.text());
@@ -66,7 +69,9 @@ const changeBodyBackground = (backgroundFile) =>
 const changeScreenBackground = (backgroundFile) =>
   (document.getElementById(
     "screen"
-  ).style.background = `url(${backgroundFile}) center cover`);
+  ).style.background = `url(${backgroundFile}) center ${
+    isDesktop() ? backgroundSizeDesktop : backgroundSizeMobile
+  }`);
 const backgroundHandler = (event, bgCallback) =>
   event?.matches ? bgCallback(bgMobile) : bgCallback(bgDesktop);
 const backgroundAddEventListener = (media) =>

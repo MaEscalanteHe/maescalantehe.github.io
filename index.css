@@ -101,7 +101,7 @@ Terminal 2
 .terminal2 {
   position: absolute;
   top: 5%;
-  bottom: 69%;
+  bottom: 70%;
   right: 5%;
   left: 50%;
   margin: auto;
@@ -156,12 +156,12 @@ Terminal 3
 
 .terminal3 {
   position: absolute;
-  top: 29%;
+  top: 30%;
   bottom: 5%;
   right: 5%;
   left: 50%;
   margin: auto;
-  margin-top: 1%;
+  margin-top: 0%;
   margin-left: 1%;
   background: var(--terminal-bg);
   box-shadow: var(--terminal-shadow);
