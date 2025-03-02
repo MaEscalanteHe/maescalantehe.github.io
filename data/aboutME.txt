@@ -1,19 +1,22 @@
 <p class="terminal1-prompt__italic">Bonsoir, Elliot.</p>
 <br/>
-<p>I introduce myself, I am Manuel Escalante, but you can call me <span class="terminal1-prompt__bold">ME</span> or <span class="terminal1-prompt__bold">Skala</span>. <span class="terminal1-prompt__italic">(Yes, like the language, but with K)</span></p>
+<p>Let me introduce myself—I'm Manuel Escalante, but you can call me <span class="terminal1-prompt__bold">Skala</span>.</p>
+<p><span class="terminal1-prompt__italic">(Yes, like the programming language, but with a K)</span></p>
 <br/>
 <p class="terminal1-prompt__title">[ ABOUT ME ]</p>
 <p class="terminal1-prompt__italic">( About <span class="terminal1-prompt__bold">M</span>anuel <span class="terminal1-prompt__bold">E</span>scalante ?) )</p>
 <br/>
-<p>I'm Mathematics student, enthusiastic Developer and sometimes DevOps.</p>
-<p>Living in Caracas, Venezuela.</p>
+<p>I'm a passionate self-taught developer and SRE/DevOps engineer.</p>
+<p>Currently based in Caracas, Venezuela.</p>
 <br/>
-<p>I have experience in fields like Backend / Frontend Developer, Mobile Development, Linux Administratror, ​​Devops; but I consider myself a backend developer. <span class="terminal1-prompt__italic">(I really dislike frontend)</span></p>
+<p>I have experience in Backend, Frontend, Mobile Development, Linux Administration, and DevOps, but I primarily consider myself a backend developer and DevOps engineer. <span class="terminal1-prompt__italic">(I really dislike frontend, though)</span></p>
 <br/>
-</p>Currently I'm still learning different technologies and languages ​​that catch my attention <span class="terminal1-prompt__italic">(especially in the backend area)</span>. If you want to see some of the things I have done.</p>
+</p>I'm always learning new technologies and programming languages that catch my attention. <span class="terminal1-prompt__italic">(Especially in the backend area)</span></p>
 <br/>
-<p>I invite you to visit <a href="https://github.com/MaEscalanteHe" target="_blank" class="terminal1-prompt__portfolio">my portfolio.</p>
+<p>If you want to check out some of my work, feel free to visit <a href="https://github.com/MaEscalanteHe" target="_blank" class="terminal1-prompt__portfolio">my GitHub profile</a>.</p>
 <br/>
-<p>I'm a member of the best group at my university: <a href="https://twitter.com/MAC_USBve" target="_blank" class="terminal1-prompt__portfolio">M.A.C / L.D.A.C.</a> since 2018. We're a team <span class="terminal1-prompt__italic">(and a family)</span> of systems administrators preparers, keep updated and available laboratories on the ground floor in MYS <span class="terminal1-prompt__italic">(Matemáticas y Sistemas building)</span>. I love practice, testing, optimize software and teach about Linux.</p>
+<p>Former member <span class="terminal1-prompt__italic">(2018-2023)</span> of the best student organization at my university: M.A.C / L.D.A.C. We're a team <span class="terminal1-prompt__italic">(and a family)</span> of system administrators and teaching assistants who maintain and manage labs at USB <span class="terminal1-prompt__italic">(Simon Bolivar University)</span>.</p>
 <br/>
-<p class="terminal1-prompt__italic">I use Arch btw...</p>
+<p>I love practicing, testing, optimizing software, and teaching about Linux.</p>
+<br/>
+<p class="terminal1-prompt__italic">I use Arch, btw...</p>
