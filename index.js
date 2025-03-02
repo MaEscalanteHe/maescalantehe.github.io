@@ -66,7 +66,7 @@ const changeBodyBackground = (backgroundFile) =>
 const changeScreenBackground = (backgroundFile) =>
   (document.getElementById(
     "screen"
-  ).style.background = `url(${backgroundFile}) center`);
+  ).style.background = `url(${backgroundFile}) center cover`);
 const backgroundHandler = (event, bgCallback) =>
   event?.matches ? bgCallback(bgMobile) : bgCallback(bgDesktop);
 const backgroundAddEventListener = (media) =>
@@ -97,7 +97,7 @@ const getFileData = async (fileName) =>
   fetch(fileName).then((res) => res.text());
 
 const matchWithTitleTty = async (text) =>
-  text.match(/osname/i) ? await sleep(2000) : null;
+  text.match(/osname/i) ? await sleep(1500) : null;
 
 const matchTheLineNumber = (iterator, line) => iterator === line;
 
@@ -171,7 +171,7 @@ const readSkillsData = async () => {
   clearTerminal3();
   for (let i = 0; i < lines.length; i++) {
     terminalPrompt3.innerHTML += lines[i];
-    await sleep(500);
+    await sleep(200);
     scrollDown(terminalDOM3);
     scrollDown(screenDOM);
   }
@@ -195,9 +195,9 @@ const openTerminalsDesktop = async () => {
   enableTerminal3();
   await sleep(200);
   readAboutData();
-  await sleep(5000);
+  await sleep(4000);
   readContactData();
-  await sleep(5000);
+  await sleep(4500);
   readSkillsData();
   resetBackground();
 };
@@ -238,19 +238,22 @@ const initDOM = () => {
 const main = async () => {
   initDOM();
   if (isDesktop()) {
-    await readFileLineByLine(P_BOOTLOADER, 50);
-    await sleep(500);
+    await readFileLineByLine(P_BOOTLOADER, 30);
+    await sleep(300);
     clearTty();
-    await readFileLineByLine(P_SYSTEMD, 25, { activated: true, timeToSleep: 500 });
-    await sleep(500);
+    await readFileLineByLine(P_SYSTEMD, 10, {
+      activated: true,
+      timeToSleep: 100,
+    });
+    await sleep(300);
     clearTty();
   }
   await readFileLineByLine(P_LOGIN, 50);
-  await sleep(250);
+  await sleep(300);
   await executeCommandAnimation(commandText, 50);
   await sleep(500);
   transitionTtyToScreen();
-  await sleep(250);
+  await sleep(300);
   isDesktop() ? await openTerminalsDesktop() : await openTerminalsMobile();
 };
 
